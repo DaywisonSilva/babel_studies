@@ -1,0 +1,27 @@
+{
+  "name": "webpack_studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./main.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaywisonSilva/webpack_studies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaywisonSilva/webpack_studies/issues"
+  },
+  "homepage": "https://github.com/DaywisonSilva/webpack_studies#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  }
+}
